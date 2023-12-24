@@ -1,0 +1,232 @@
+@media (max-width: 768px) {
+    .description-container {
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+        justify-content: center;
+        background-color: #111111;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .description-title {
+        font-size: 2em;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+
+    .description-box {
+        align-self: center;
+        width: 98%;
+        min-height: 600px;
+        background-color: #151515;
+        margin: 0 auto;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;border: 3px solid #1F1F1F;
+        background: #151515; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.48);
+    }
+
+    .description-image {
+        width: 100%;
+        height: 30%;
+        border-radius: 7px;
+        margin: 0 auto;
+        background-size: cover;
+        background-image: url('../../assets/images/fundo.jpg');
+    }
+
+    .description-subtitle {
+        color: #D4D4D4;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background-color: transparent;
+        margin-top: 10px;
+    }
+
+    .description-text {
+        color: #9CA3AF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background-color: transparent;
+        margin-top: 15px;
+    }
+
+    .section-datas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        background-color: transparent;
+        margin-top: 20px;
+    }
+
+    .data-box {
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .data-title {
+        background-color: transparent;
+        color: #909294;
+        text-align: center;
+        font-size: 2em;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        transition: all 0.6s ease-in-out;
+    }
+
+    .dt-subtitle {
+        background-color: transparent;
+        color: #DEE3D8;
+        text-align: center;
+        font-size: 1em;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        transition: all 0.6s ease-in-out;
+        margin-top: -10px;
+    }
+
+    .line {
+        height: 80px;
+        width: 2px;
+        background-color: #222222;
+    }
+
+    .data-box:hover .data-title {
+        color: #fff;
+    }
+
+    .data-box:hover .data-subtitle {
+        color: #fff;
+    }
+}
+
+@media (min-width: 769px) {
+    .description-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        background-color: #111111;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .description-title {
+        font-size: 2.5em;
+        color: #fff;
+        letter-spacing: 1px;
+        align-self: center;
+    }
+
+    .description-box {
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+        flex-direction: row;
+        padding: 10px;
+        border-radius: 7px; border: 3px solid #1F1F1F;
+        background: #151515; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.48);
+        position: relative;
+    }
+
+    .description-image {
+        display: flex;
+        width: 42%;
+        height: 100%;
+        align-self: flex-end;
+        border-radius: 7px;
+        background-size: cover;
+        background-image: url('../../assets/images/fundo.jpg');
+    }
+
+    .description-data {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        align-self: flex-end;
+        background-color: transparent;
+    }
+
+    .description-subtitle {
+        color: #D4D4D4;
+        font-size: 1.2em;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background-color: transparent;
+        margin-top: 10px;
+    }
+
+    .description-text {
+        color: #9CA3AF;
+        font-size: 1em;
+        max-width: 90%;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background-color: transparent;
+        margin-top: 10px;
+    }
+
+    .section-datas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        background-color: transparent;
+    }
+
+    .data-box {
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .data-title {
+        background-color: transparent;
+        color: #909294;
+        text-align: center;
+        font-size: 2.1em;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        transition: all 0.6s ease-in-out;
+    }
+
+    .dt-subtitle {
+        background-color: transparent;
+        color: #DEE3D8;
+        text-align: center;
+        font-size: 1.1em;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        transition: all 0.6s ease-in-out;
+        margin-top: -10px;
+    }
+
+    .line {
+        height: 80px;
+        width: 2px;
+        background-color: #222222;
+    }
+
+    .data-box:hover .data-title {
+        color: #fff;
+    }
+
+    .data-box:hover .data-subtitle {
+        color: #fff;
+    }
+}

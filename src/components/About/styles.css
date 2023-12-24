@@ -1,0 +1,288 @@
+@media (max-width: 790px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 90vh;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .about-title {
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold;
+        max-width: 85%;
+    }
+
+    .about-title-green {
+        color: #00FF38;
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: -30px;
+    }
+
+    .about-subtitle {
+        color: #00FF38;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-top: -10px;
+    }
+
+    .about-description {
+        color: #fff;
+        font-size: 0.9em;
+        font-weight: 200;
+        margin-top: 30px;
+        max-width: 70%;
+    }
+
+    .abt-button {
+        display: flex;
+        background-color: transparent;
+        border-radius: 9px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border: solid 2px #00FF38;
+        margin-top: 20px;
+        transition: all 0.3s ease-in-out;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .abt-button p {
+        color: #fff;
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+        border: none;
+        margin: 0;
+        background-color: transparent;
+    }
+
+    .abt-button:hover {
+        background-color: #00FF38;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .abt-button:hover p {
+        color: #000;
+    }
+
+    .container-links {
+        flex-direction: row;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .button-link {
+        border-radius: 4px;
+        background: #151515;
+        width: 44px;
+        height: 40px;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4px;
+        transition: all 0.3s ease-in-out;
+        margin-left: 8px;
+    }
+
+    .button-link:first-child {
+        margin-left: 0px;
+    }
+
+    .button-link:hover {
+        background-color: #00FF38;
+    }
+
+    .icon-instagram {
+        transition: all 0.3s ease-in-out;
+        background-color: transparent;
+    }
+
+    .icon-email {
+        transition: all 0.3s ease-in-out;
+        background-color: transparent;
+    }
+
+    .icon-git {
+        transition: all 0.3s ease-in-out;
+        background-color: transparent;
+    }
+
+    .icon-linkedin {
+        transition: all 0.3s ease-in-out;
+        background-color: transparent;
+    }
+
+    .button-link:hover .icon-instagram {
+        fill: #000;
+    }
+
+    .button-link:hover .icon-linkedin {
+        fill: #000;
+    }
+
+    .button-link:hover .icon-git {
+        fill: #000;
+    }
+
+    .button-link:hover .icon-email {
+        fill: #000;
+    }
+}
+
+@media (min-width: 789px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 100px;
+    }
+
+    .about-title {
+        color: #fff;
+        font-size: 4em;
+        font-weight: bold;
+        max-width: 85%;
+    }
+
+    .about-title-green {
+        color: #00FF38;
+        font-size: 4em;
+        font-weight: bold;
+        margin-top: -30px;
+    }
+
+    .about-subtitle {
+        color: #00FF38;
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: -10px;
+    }
+
+    .about-description {
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 200;
+        margin-top: 30px;
+        max-width: 50%;
+    }
+
+    .abt-button {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        border-radius: 9px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border: solid 2px #00FF38;
+        margin-top: 20px;
+        transition: all 0.3s ease-in-out;
+        align-items: center;
+    }
+
+    .abt-button2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 10px;
+        background-color: transparent;
+    }
+
+    .abt-icon {
+        background-color: transparent;
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .abt-button2 p {
+        color: #fff;
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+        border: none;
+        margin: 0;
+        background-color: transparent;
+    }
+
+    .abt-button:hover {
+        background-color: #00FF38;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .abt-button:hover .abt-button2 p {
+        color: #000;
+    }
+
+    .abt-button:hover .abt-icon {
+        fill: #000;
+
+    }
+
+    .container-links {
+        flex-direction: row;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .button-link {
+        border-radius: 4px;
+        background: #151515;
+        width: 44px;
+        height: 40px;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4px;
+        transition: all 0.3s ease-in-out;
+        margin-left: 8px;
+    }
+
+    .button-link:first-child {
+        margin-left: 0px;
+    }
+
+    .button-link:hover {
+        background-color: #00FF38;
+    }
+
+    .icon-instagram {
+        transition: all 0.3s ease-in-out;
+        background-color: transparent;
+    }
+
+    .icon-email {
+        transition: all 0.3s ease-in-out;
+        background-color: transparent;
+    }
+
+    .icon-git {
+        transition: all 0.3s ease-in-out;
+        background-color: transparent;
+    }
+
+    .icon-linkedin {
+        transition: all 0.3s ease-in-out;
+        background-color: transparent;
+    }
+
+    .button-link:hover .icon-instagram {
+        fill: #000;
+    }
+
+    .button-link:hover .icon-linkedin {
+        fill: #000;
+    }
+
+    .button-link:hover .icon-git {
+        fill: #000;
+    }
+
+    .button-link:hover .icon-email {
+        fill: #000;
+    }
+}
