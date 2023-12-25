@@ -28,26 +28,25 @@ export default function Projets() {
         if (filter == 'all') {
             setFreelancerItems(data.filter((item) => item.tipo == 'freelancer'))
             setPessoalItems(data.filter((item) => item.tipo == 'pessoal'))
-        } else if(filter == 'app'){
+        } else if (filter == 'app') {
             const filtradoFreela = data.filter((item) => item.tipo == 'freelancer')
             const filtradoPessoal = data.filter((item) => item.tipo == 'pessoal')
 
-            setFreelancerItems(filtradoFreela.filter((item) =>  item.app == true))
-            setPessoalItems(filtradoPessoal.filter((item) =>  item.app == true))
-        } else{
+            setFreelancerItems(filtradoFreela.filter((item) => item.app == true))
+            setPessoalItems(filtradoPessoal.filter((item) => item.app == true))
+        } else {
 
 
             const filtradoFreela = data.filter((item) => item.tipo == 'freelancer')
             const filtradoPessoal = data.filter((item) => item.tipo == 'pessoal')
 
-            setFreelancerItems(filtradoFreela.filter((item) =>  item.web == true))
-            setPessoalItems(filtradoPessoal.filter((item) =>  item.web == true))
+            setFreelancerItems(filtradoFreela.filter((item) => item.web == true))
+            setPessoalItems(filtradoPessoal.filter((item) => item.web == true))
         }
-
-        console.log('freela', freelancerItems)
-        console.log('pessoaç', pessoalItems)
-
     }, [filter])
+
+    console.log('freela', freelancerItems)
+    console.log('pessoal', pessoalItems)
 
     return (
         <div className="proj-container" id='projetos'>

@@ -3,7 +3,7 @@
         display: flex;
         flex-direction: column;
         width: 95%;
-        height: 90vh;
+        height: 30rem;
         justify-content: center;
         align-items: flex-start;
     }

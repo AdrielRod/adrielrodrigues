@@ -3,7 +3,7 @@
     .proj-container {
         display: flex;
         flex-direction: column;
-        height: 300vh;
+        height: 90rem;
         justify-content: center;
         background-color: #111111;
         margin: 0;

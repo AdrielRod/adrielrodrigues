@@ -3,7 +3,7 @@
     .tech-container {
         display: flex;
         flex-direction: column;
-        height: 150vh;
+        height: 50rem;
         justify-content: center;
         background-color: #111111;
         margin: 0;
