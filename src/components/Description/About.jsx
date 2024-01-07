@@ -52,7 +52,7 @@ export default function Tech() {
                         <div className='line'></div>
 
                         <div className='data-box'>
-                            <p className='data-title poppins'>4</p>
+                            <p className='data-title poppins'>5</p>
                             <p className='dt-subtitle poppins'>Clientes</p>
                             <p className='dt-subtitle poppins'>satisfeitos</p>
                         </div>
@@ -60,7 +60,7 @@ export default function Tech() {
                         <div className='line'></div>
 
                         <div className='data-box'>
-                            <p className='data-title poppins'>8</p>
+                            <p className='data-title poppins'>9</p>
                             <p className='dt-subtitle poppins'>Projetos</p>
                             <p className='dt-subtitle poppins'>finalizados</p>
                         </div>

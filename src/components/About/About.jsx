@@ -6,7 +6,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { IoMdDownload } from "react-icons/io";
 import Aos from 'aos';
 import 'aos/dist/aos.css' 
-
+import CV from '../../assets/CV_ADRIELRODRIGUES-9.pdf'
 
 export default function About() {
 
@@ -28,6 +28,13 @@ export default function About() {
         };
     }, []);
 
+    function handleDownload(){
+        const link = document.createElement('a')
+        link.href = CV
+        link.target = '_blank'
+        link.click()
+    }
+
     return (
         <div className="about-container">
             <p className="about-title poppins" >Oi, meu nome é</p>
@@ -35,8 +42,8 @@ export default function About() {
             <p className="about-subtitle poppins"  >Desenvolvedor Front End</p>
             <p className="about-description poppins">Sou desenvolvedor mobile e web com 1 ano de experiencia. Meu foco é
                 React Native e React JS.</p>
-            <a href='https://drive.google.com/file/d/1ICljIyBkuFy4GgmVYMgrPB9nlqpPyNlv/view?usp=sharing' target='_blank'>
-                <button className='abt-button'  >
+            
+                <button className='abt-button'  onClick={handleDownload}>
                     {larguraDaTela <= 768 ? ( <p className='poppins'>Download CV</p> ) : (
                         <div className='abt-button2'>
                             <IoMdDownload color='#fff' size={25} className='abt-icon'/>
@@ -45,7 +52,7 @@ export default function About() {
                     )}
                     
                 </button>
-            </a>
+            
             <div className="container-links" >
                 <a href="https://www.instagram.com/onlydriel/" target='_blank'>
                     <button className='button-link'>

@@ -20,6 +20,7 @@ import Spells from '../assets/images/spells.png'
 import SpellsApp from '../assets/images/spellsApp.png'
 import FotoWeb from '../assets/images/fotoweb.png'
 import FotoWebApp from '../assets/images/fotoWebApp.png'
+import Viajante from '../assets/images/viajantes.png'
 
 export const data = [
     {
@@ -111,5 +112,20 @@ export const data = [
         git: '',
         image: FotoWeb,
         imageApp: FotoWebApp,
+    },
+    {
+        id: '6',
+        nome: "Viajantes: Faerun",
+        descricao: "Web site desenvolvido para o apoio de jogadores de uma determinada mesa de RPG. Atualmente o aplicativo tem função para registro de magias modificadas. O usuário pode adicionar, atualizar e até mesmo deletar uma magia, caso ela seja sua. O site foi feito com React JS, Zustand, Typescript e Firebase.",
+        tecnologias: ['RJ', 'CS', 'TS', 'FB'],
+        emProgresso: false,
+        temLink: true,
+        web: true,
+        app: false,
+        tipo: 'freelancer',
+        deploy: 'https://viajantes-faerun.web.app/',
+        git: '',
+        image: Viajante,
+        imageApp: Viajante,
     },
 ]
